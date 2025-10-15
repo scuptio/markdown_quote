@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "markdown_quote"
+version = "0.0.1"
+description = "A command line tool that processes markdown files to replace quote blocks with actual content from referenced files."
+readme = "README.md"
+authors = [
+    {name = "ybbh", email = "guohua@scupt.com"}
+]
+license = {text = "Apache License"}
+keywords = ["cli", "command-line"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+dependencies = []
+
+[project.scripts]
+markdown_quote = "markdown_quote:main"
+
+[project.urls]
+Homepage = "https://github.com/scuptio/markdown_quote"
+Repository = "https://github.com/scuptio/markdown_quote"
+"Bug Reports" = "https://github.com/scuptio/markdown_quote/issues"
