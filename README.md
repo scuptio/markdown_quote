@@ -26,6 +26,11 @@ up-to-date content
 
 ## Usage
 
+Install `markdown_quote`
+```
+pip install markdown_quote
+```
+
 Navigate to your project folder and run:
 ```
 markdown_quote
